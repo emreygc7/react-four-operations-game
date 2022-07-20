@@ -55,7 +55,7 @@ body{
 }
 #title{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     margin-bottom: 1rem;
 }
@@ -78,14 +78,14 @@ body{
 .guessInput{
     outline: none;
     border: 1px solid black;
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
     border-radius: 15px;
     padding: .5rem 2rem;
 }
 
 .guessBtn{
-    width: 35vw;
+    width: 45vw;
     margin: 0 auto;
     padding: .5rem 2rem;
     background-color: rgb(158, 154, 96);
@@ -118,6 +118,9 @@ body{
     .container{
         width: 70vw;
     }
+    .guessInput{
+        width: 60vw;
+    }
     .guessBtn{
         width: 32vw;
     }
@@ -127,6 +130,9 @@ body{
 @media screen and (min-width:769px) and (max-width: 1024px){
     .container{
         width: 60vw;
+    }
+    .guessInput{
+        width: 50vw;
     }
     .guessBtn{
         width: 20vw;
@@ -152,7 +158,7 @@ body{
         width: 30vw;
     }
     .guessInput{
-        width: 20vw;
+        width: 25vw;
     }
     .guessBtn{
         width: 13vw;
